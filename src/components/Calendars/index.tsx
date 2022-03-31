@@ -59,11 +59,11 @@ const Index = memo(() => {
                           size="small"
                           dropdownMatchSelectWidth={false}
                           className="my-year-select"
-                          onChange={newYear => {
+                          onChange={(newYear: number) => {
                             const now = value.clone().year(newYear);
                             onChange(now);
                           }}
-                          value={String(year)}
+                          value={String(year) as any}
                         >
                           {options}
                         </Select>
@@ -86,7 +86,7 @@ const Index = memo(() => {
                   </div>
                 );
               }}
-              onPanelChange={onPanelChange}
+              onPanelChange={onPanelChange as any}
             />
           </div>
         </div>

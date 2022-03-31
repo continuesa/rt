@@ -36,7 +36,8 @@
     "rxjs": "^7.5.5",
     "sass": "^1.49.10",
     "vite-plugin-compression": "^0.5.1",
-    "vite-plugin-importer": "^0.2.5"
+    "vite-plugin-importer": "^0.2.5",
+    "web-vitals": "^2.1.4"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1.0.0-rc.8",

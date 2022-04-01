@@ -5,7 +5,7 @@ import { actions } from '../../redux/actions';
 import Cards from '../../components/Cards';
 import Calendars from '../../components/Calendars';
 import PlotsMix from '../../components/Charts/PlotsMix';
-import WorldMaps from '../../components/Charts/WorldMaps';
+import EffectFades from '../../components/Swiper/EffectFades';
 
 
 
@@ -104,6 +104,7 @@ const Index = memo(() => {
 
     return (
         <div className={styles.normal}>
+            <EffectFades />
             <PlotsMix />
             <Calendars />
             <div className='btns'>

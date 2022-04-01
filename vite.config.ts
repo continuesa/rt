@@ -57,7 +57,7 @@ export default defineConfig({
                 chunkFileNames: `${mkdirName}/js/[name]-[hash].js`,
                 entryFileNames: `${mkdirName}/js/[name]-[hash].js`,
                 // assetFileNames: `${mkdirName}/[ext]/[name]-[hash].[ext]`,
-                assetFileNames: `@assets/[ext]/[name]-${new Date().getTime()}.[ext]`, // css文件名加时间戳配置
+                assetFileNames: `assets/[ext]/[name]-${new Date().getTime()}.[ext]`, // css文件名加时间戳配置
 
             },
         },
